@@ -1,0 +1,29 @@
+/* Gaya tampilan dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Gaya interaksi tambahan dapat ditambahkan di sini */
